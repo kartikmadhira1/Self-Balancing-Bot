@@ -1,26 +1,4 @@
-/*
-  bot_final.ino SBR code using Kalman Filter 
-  Copyright (c) 2015 Kartik Madhira.  All right reserved.
 
-  Kalman.h Library and I2C.ino code are exclusive properties of TKJ Electronics.
-  This specfic code takes in data from the MPU6050 using the I2C node. The data
-  is the kalman filtered angle using Accelerometer and Gyroscope. The absolute 
-  filtered angle minus 180 degrees is taken as error and sent to a PID controller.
-
-  This library is free software; you can redistribute it and/or
-  modify it under the terms of the GNU Lesser General Public
-  License as published by the Free Software Foundation; either
-  version 2.1 of the License, or (at your option) any later version.
-
-  This library is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-  Lesser General Public License for more details.
-
-  You should have received a copy of the GNU Lesser General Public
-  License along with this library; if not, write to the Free Software
-  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
-*/
 
 #include <Kalman.h>
 
